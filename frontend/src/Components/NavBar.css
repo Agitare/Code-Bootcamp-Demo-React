@@ -1,0 +1,32 @@
+.nav-bar {
+    background-color: #c7c7c7;
+    background-image: linear-gradient(to bottom right, #03d3fc, #039dfc);
+    overflow: auto;
+    
+}
+
+.nav-bar a {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    float: left;
+}
+
+.nav-bar li {
+    float: left;
+    list-style-type: none;
+    margin: 8px 21px;
+}
+
+a:hover {
+    color: #f5f5f5;
+    background-color: #72c4f7;
+    cursor: pointer;
+}
